@@ -6,6 +6,15 @@ module.exports = {
     fontFamily: {
       Orbitron: ["Orbitron", "sans-serif"],
     },
+
+    textColor: {
+      black:"#000000",
+      white: "#ffffff",
+      orange: {
+        first: "#FF1F4C",
+        second: "#FF5E35",
+      },
+    },
     gradientColorStops: {
       orange: {
         first: "#FF1F4C",

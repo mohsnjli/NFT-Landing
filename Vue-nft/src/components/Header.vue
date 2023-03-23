@@ -6,12 +6,13 @@
       </div>
       <ul class="w-1/3">
         <a
-          class="mx-4 my-10 text-white"
+          class="mx-4 my-10 relative text-white group hover:text-black"
           :href="item.link"
           v-for="(item, index) in list"
           :key="index"
         >
           {{ item.name }}
+        
         </a>
       </ul>
       <div class="w-1/3 flex items-center justify-end mr-12">
@@ -59,10 +60,14 @@
         </div>
       </div>
     </div>
-    <div class="backgroundImage w-full h-screen relative top-28 z-0">
+    <div class="backgroundImage w-full h-screen relative">
       <img class="mx-auto" src="../../public/main-shape-2.png" alt="" />
+      <img
+        class="absolute top-1/4 border-8 border-white rounded-full translate-x-44"
+        src="../../public/2-header.png"
+        alt=""
+      />
     </div>
-    <div class="mainImage w-full h-screen relative -top-96"></div>
   </div>
 </template>
 
@@ -70,9 +75,9 @@
 export default {
   data() {
     return {
-      HeaderImage: '../../public/1-header.png',
-      logo: '../../public/Logo.png',
-      buttonImage: '../../public/ExploreBtn.svg',
+      HeaderImage: '../../public/1-header.png', //header Svg image
+      logo: '../../public/Logo.png', //Header logo image
+      buttonImage: '../../public/ExploreBtn.svg', //explore Btn
       list: [
         {
           name: 'Home',
