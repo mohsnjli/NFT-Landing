@@ -1,26 +1,5 @@
 <template>
   <div class="w-full h-max">
-    <div class="w-full h-max flex items-center justify-around mx-auto my-4">
-      <div class="w-1/3">
-        <img alt="" class="w-16 ml-12" :src="logo" />
-      </div>
-      <ul class="w-1/3">
-        <a
-          class="mx-4 my-10 relative text-white group hover:text-black"
-          :href="item.link"
-          v-for="(item, index) in list"
-          :key="index"
-        >
-          {{ item.name }}
-        
-        </a>
-      </ul>
-      <div class="w-1/3 flex items-center justify-end mr-12">
-        <button class="w-[157px] h-[60px] bg-white rounded-full">
-          Login
-        </button>
-      </div>
-    </div>
     <div
       class="container w-full h-max mt-14 flex flex-row items-start justify-around"
     >
@@ -78,28 +57,6 @@ export default {
       HeaderImage: '../../public/1-header.png', //header Svg image
       logo: '../../public/Logo.png', //Header logo image
       buttonImage: '../../public/ExploreBtn.svg', //explore Btn
-      list: [
-        {
-          name: 'Home',
-          link: 'google.com',
-        },
-        {
-          name: 'About',
-          link: 'google.com',
-        },
-        {
-          name: 'Artwork',
-          link: 'google.com',
-        },
-        {
-          name: 'Collection',
-          link: 'google.com',
-        },
-        {
-          name: 'Artist',
-          link: 'google.com',
-        },
-      ],
     }
   },
 }

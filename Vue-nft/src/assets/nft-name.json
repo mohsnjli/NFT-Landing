@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "tokenName": "Evol Benji",
+    "userName": " 'Jen wilson'",
+    "Price": 8.32,
+    "Timer": "10:10:10",
+    "profileSrc": " ../../public/Profile-Pics/1-Profile.png",
+    "tokenPic": "../../public/NFT-Pics/1.png"
+  },
+  {
+    "id": 2,
+    "tokenName": "EVOL REKT",
+    "userName": " Jacob Jones",
+    "Price": 6.42,
+    "Timer": "10:10:10",
+    "profileSrc": " ../../public/Profile-Pics/2-Profile.png",
+    "tokenPic": "../../public/NFT-Pics/2.png"
+  },
+  {
+    "id": 3,
+    "tokenName": "Lazy Lion",
+    "userName": " Cody Fisher",
+    "Price": 5.22,
+    "Timer": "10:10:10",
+    "profileSrc": " ../../public/Profile-Pics/3-Profile.png",
+    "tokenPic": "../../public/NFT-Pics/3.png"
+  },
+  {
+    "id": 4,
+    "tokenName": "EVOLmania",
+    "userName": " Albert Flores",
+    "Price": 9.32,
+    "Timer": "10:10:10",
+    "profileSrc": " ../../public/Profile-Pics/4-Profile.png",
+    "tokenPic": "../../public/NFT-Pics/4.png"
+  },
+  {
+    "id": 5,
+    "tokenName": "EVOL Overfiend",
+    "userName": "Ralph Edwards",
+    "Price": 4.42,
+    "Timer": "10:10:10",
+    "profileSrc": " ../../public/Profile-Pics/5-Profile.png",
+    "tokenPic": "../../public/NFT-Pics/5.png"
+  },
+  {
+    "id": 6,
+    "tokenName": "EVOL Zomboy",
+    "userName": "Dianne Russell",
+    "Price": 2.12,
+    "Timer": "10:10:10",
+    "profileSrc": " ../../public/Profile-Pics/6-Profile.png",
+    "tokenPic": "../../public/NFT-Pics/6.png"
+  }
+]

@@ -6,5 +6,7 @@
   font-family: "Orbitron";
   src: url("./Vue-nft/src/assets/Fonts/Orbitron-VariableFont_wght.ttf"format("truetype"));
 }
-
-
+@font-face {
+  font-family: "TT-Fires";
+  src: url("./Vue-nft/src/assets/Fonts/TT-Fires.ttf"format("truetype"));
+}

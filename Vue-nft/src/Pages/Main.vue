@@ -28,22 +28,17 @@
       class="flex items-center justify-center space-y-10 hover:bg-white/10> flex-row flex-wrap"
     >
       <explore />
-      <explore />
-      <explore />
-      <explore />
-      <explore />
-      <explore />
+      <h1>{{ arrayProduce }}</h1>
     </div>
   </div>
 </template>
 
 <script>
 import explore from './Explore.vue'
-import features from './Features.vue'
 
 export default {
-  components: { explore, features },
-
+  setup() {},
+  components: { explore },
   data() {
     return {
       exploreItems: [
